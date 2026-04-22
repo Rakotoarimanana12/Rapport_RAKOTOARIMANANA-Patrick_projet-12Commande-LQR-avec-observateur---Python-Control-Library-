@@ -22,9 +22,11 @@ Le système est représenté en espace d’état sous la forme :
 
 ---
 
-## 🚀 Installation des dépendances
-
-Installe les bibliothèques nécessaires avec :
+## 🚀 Installation des dépendances et exécution
 
 ```bash
+python -m venv env
+./env/Script/activate
 pip install -r requirements.txt
+python main.py
+
